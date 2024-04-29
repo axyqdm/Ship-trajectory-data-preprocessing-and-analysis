@@ -66,7 +66,7 @@
 
 船舶轨迹序列是一个典型的多变量时间序列，在量化过程中使用时间序列分析工具时，经常需要先考察轨迹序列的平稳性，以便选择合适的轨迹预测方法。此代码直观地展示了船舶轨迹四个特征的序列分布情况。
 
-<img src="D:\AA_work\周四课项目\README图片\序列分布情况.png" style="zoom: 50%;" />
+<img src="README图片\序列分布情况.png" style="zoom: 50%;" />
 
 #### 三、轨迹修复（插值处理.py）
 
@@ -74,6 +74,6 @@
 
 插值处理.py会输出两种函数的插值结果到新的文件，之后会绘制散点图直观的对比结果。
 
-<img src="D:\AA_work\周四课项目\README图片\插值结果.png" style="zoom: 67%;" />
+<img src="README图片\插值结果.png" style="zoom: 67%;" />
 
 如果需要AIS轨迹图，时间-经纬度图可以点击链接异步我另一个仓库 （[点这里](https://github.com/axyqdm/Track-visualization)）
